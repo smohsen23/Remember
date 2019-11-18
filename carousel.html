@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<div id="carousel-example-generic" class="carousel slide">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+       <!-- Slide -->
+    <div class="item active">
+        <div class="row">
+            <div class="col-sm-3 col-xs-6">
+                <img src=img/guido.jpg" alt=""/>
+                <div class="carousel-caption">This is a caption</div>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <img src="img/guido.jpg" alt=""/>
+                <div class="carousel-caption">This is a caption</div>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <img src="img/guido.jpg" alt=""/>
+                <div class="carousel-caption">This is a caption</div>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <img src="img/guido.jpg" alt=""/>
+                <div class="carousel-caption">This is a caption</div>
+            </div>
+        </div>
+    </div>
+       <!-- Slide -->
+    <div class="item">
+        <div class="row">
+            <div class="col-sm-3 col-xs-6">
+                <img src="http://placehold.it/260x180" alt=""/>
+                <div class="carousel-caption">This is a caption</div>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <img src="http://placehold.it/260x180" alt=""/>
+                <div class="carousel-caption">This is a caption</div>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <img src="http://placehold.it/260x180" alt=""/>
+                <div class="carousel-caption">This is a caption</div>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <img src="http://placehold.it/260x180" alt=""/>
+                <div class="carousel-caption">This is a caption</div>
+            </div>
+        </div>
+    </div>
+       <!-- Slide -->
+    <div class="item">
+        <div class="row">
+            <div class="col-sm-3 col-xs-6">
+                <img src="http://placehold.it/260x180" alt=""/>
+                <div class="carousel-caption">This is a caption</div>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <img src="http://placehold.it/260x180" alt=""/>
+                <div class="carousel-caption">This is a caption</div>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <img src="http://placehold.it/260x180" alt=""/>
+                <div class="carousel-caption">This is a caption</div>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <img src="http://placehold.it/260x180" alt=""/>
+                <div class="carousel-caption">This is a caption</div>
+            </div>
+        </div>
+    </div>
+
+</div>
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+    <span class="icon-prev"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+    <span class="icon-next"></span>
+  </a>
+
+
+<style>
+
+  .carousel.slide img {
+    width:100%;
+    height:auto;
+}
+
+
+</style>
+
+
+<script>
+  $('#carousel-example-generic').carousel({wrap: true});
+
+</script>
+</html>
